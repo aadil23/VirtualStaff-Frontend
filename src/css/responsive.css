@@ -1,0 +1,319 @@
+@media (min-width:768px){
+
+}
+@media (max-width:991px){
+
+}
+@media (max-width:767px){
+
+}
+@media
+only screen and (max-width: 760px) {
+
+
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+.privacy-bg{
+background-size: cover;
+}
+}
+@media only screen and (max-width: 1515px) and (min-width: 1400px){
+    .new-enterprise-banner-page{
+        height: 450px;
+    }
+    .recruitment-process-right-card-heading {
+        font-size: 18px;
+    }
+    .recruitment-process-section-full-width {
+        height: 577px;
+    }
+    .recruitment-process-section-half-width {
+        height: 577px;
+    }
+
+}
+@media only screen and (max-width: 1412px) and (min-width: 1250px){
+    .new-enterprise-banner-page{
+        height: 400px;
+    }
+    .recruitment-process-section-full-width {
+        height: 567px;
+    }
+    .recruitment-process-section-half-width {
+        height: 567px;
+    }
+    .recruitment-process-section-right-card{
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 1383px) and (min-width: 1250px){
+    .recruitment-process-section-full-width {
+        height: 550px;
+    }
+    .recruitment-process-section-half-width {
+        height: 550px;
+    }
+    .recruitment-process-right-card-heading {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1335px) and (min-width: 1275px){
+    .recruitment-process-section-full-width {
+        height: 530px;
+    }
+    .recruitment-process-section-half-width {
+        height: 530px;
+    }
+}
+@media only screen and (max-width: 1290px) and (min-width: 1190px){
+    .recruitment-process-section-full-width {
+        height: 510px;
+    }
+    .recruitment-process-section-half-width {
+        height: 510px;
+    }
+    .recruitment-process-section-right-whole-card{
+        padding: 14px 0;
+    }
+    .recruitment-process-right-card-para {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1250px) and (min-width: 1100px){
+    .new-enterprise-banner-page{
+        height: 350px;
+    }
+    .turnkey-system-card::after {
+        content: '';
+        background: url(../images/enterprise/turnkeycardbgpng.png);
+        height: 142px;
+        width: 100%;
+        background-size: 131%;
+    }
+    .turnkey-system-card {
+        height: 242px;
+    }
+    .privacy-bg {
+        height: 1890px;
+    }
+}
+@media only screen and (max-width: 1100px) and (min-width: 1024px){
+    .new-enterprise-banner-page{
+        height: 325px;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .new-enterprise-banner-page {
+        background: url(../images/enterprise/enterprisebannerbg.jpg);
+        background-repeat: no-repeat;
+        height: 244px;
+        background-size: cover;
+    }
+    .header {
+        height: 150px;
+    }
+    .header .navbar-expand-md{
+        flex-direction: column;
+    }
+    .recruitment-process-section-full-width {
+        background: #D4D4D4;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .recruitment-process-section-half-width {
+        width: 100%;
+        height: 200px;
+        background: url(../images/enterprise/enterpriseleftbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recruitment-process-section-right-width {
+        width: 100%;
+    }
+    .turnkey-system-section-content{
+        flex-direction: column;
+    }
+    .turnkey-system-card::after {
+        content: '';
+        background: url(../images/enterprise/turnkeycardbgpng.png);
+        height: 146px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+    }
+    .turnkey-system-card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        height: 250px;
+    }
+    .turnkey-system-card-content h5 {
+        font-weight: 900;
+        font-size: 14px;
+    }
+    .turnkey-system-card-content p {
+        font-size: 10px;
+    }
+    .privacy-bg {
+        height: auto;
+        background: url(../images/enterprise/privacybg.jpg);
+        background-size: cover;
+    }
+}
+@media (max-width:767px){
+    .turnkey-system-card::after{
+        height: 143px;
+        background-size: cover;
+    }
+    .turnkey-system-card-content p{
+        font-size: 13px;
+        width: 95%;
+    }
+    .turnkey-system-card-content{
+        top: -11px;
+    }
+    .recruitment-process-section-half-width h3{
+        font-size: 16px;
+    }
+    .header {
+        height: auto;
+    }
+    .new-enterprise-banner-page {
+        background: url(../images/enterprise/enterprisebannerbg.jpg);
+        background-repeat: no-repeat;
+        height: 180px;
+        background-size: cover;
+    }
+    .new-enterprise-banner-text h2 {
+        font-size: 19px;
+        line-height: normal;
+    }
+    .new-enterprise-banner-text p {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        font-family: "Lato-Bold";
+        color: #634F4F;
+        margin-top: 0px;
+        width: 60%;
+    }
+    .recruitment-process-section-full-width {
+        background: #D4D4D4;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .recruitment-process-section-half-width {
+        width: 100%;
+        height: 200px;
+        background: url(../images/enterprise/enterpriseleftbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recruitment-process-section-right-width {
+        width: 100%;
+    }
+    .turnkey-system-section-content{
+        flex-direction: column;
+    }
+    .recruitment-process-section-right-card {
+        width: 90%;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+        border-radius: 70px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .recruitment-process-right-card-text {
+        width: calc( 100% - 77px);
+        padding: 25px 33px 25px 25px;
+        position: relative;
+        min-height: auto;
+    }
+    .recruitment-process-right-card-text::before {
+        content: '';
+        background: #C4C4C4;
+        width: 300px;
+        height: 1px;
+        position: absolute;
+        top: 14px;
+        left: 0;
+    }
+    .turnkey-system-card{
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+    }
+    .turnkey-system-section-heading{
+        width: 100%;
+        margin-right: 0;
+    }
+    .privacy-bg-card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgb(0 0 0 / 40%);
+        border-radius: 5px;
+        width: 100%;
+        padding: 15px;
+        border-left: 5px solid #B32B7F;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .privacy-bg{
+        height: auto;
+        background-size: cover;
+    }
+    .privacy-bg-main {
+        width: 100%;
+    }
+    .privacy-bg-card-icon {
+        margin-bottom: 20px;
+    }
+    .get-pricing-btn {
+    margin-bottom: 50px;
+    }
+    .footer-area{
+        flex-direction: column;
+    }
+    .footer-area-single-section {
+        padding: 15px 0;
+    }
+    .footer2-area-content {
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer2-area-left-text{
+        margin-bottom: 20px;
+    }
+    .footer2-area {
+       padding: 20px 0;
+        height: auto;
+    }
+}
+@media (max-width:375px) and (min-width:320px) {
+    .recruitment-process-right-card-text::before{
+        width: 220px;
+    }
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
