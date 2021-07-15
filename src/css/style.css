@@ -613,7 +613,7 @@ border: 1pt solid #F4D00C;
 .new-home-page-banner .banner-text h2{
 font-family: "Lato-Black";
 font-size: 50px;
-line-height: 74px;
+line-height: 50px;
 color: #FFFFFF;
 width: 80%;
 margin-bottom: 20px;
@@ -2251,11 +2251,16 @@ padding-top: 40px;
   font-size: 26px;
   color: #0093d1;
 }
-.how-it-works-jobseeker-card-text{
+.how-it-works-employer-section .how-it-works-jobseeker-card-text{
 font-size: 22px;
 font-family: "Lato-Black";
 color: #004C70;
 }
+.how-it-works-jobseeker-card-text{
+  font-size: 22px;
+  font-family: "Lato-Black";
+  color: #fff;
+  }
 .faq-section {
   background: #e8e8e8;
   padding: 50px 0;
@@ -2287,8 +2292,10 @@ color: #004C70;
   margin: 0;
   margin-bottom: 15px;
 }
-.aboutus-section{
-  background: #fefefe;
+.aboutus-section {
+  background: url(../images/homepage/jobseekerbg.jpg);
+  background-size: cover;
+  height: auto;
 }
 .aboutus-section .pay-your-staff-bg-card {
   background: #0093D4;
@@ -2324,6 +2331,18 @@ color: #fff;
 }
 .aboutus-section .pay-your-staff-bg-card-content2 {
   width: 15%;
+}
+.aboutus-section .pay-your-staff-bg-card .common-bulletin li label > a {
+  color: #fff;
+  text-decoration: underline !important;
+}
+.last-thoughts-text p{
+  margin-bottom: 10px;
+  color: #fff;
+}
+.last-thoughts-text p > i > a{
+  color: #fff;
+  text-decoration: underline !important;
 }
 .aboutuspagesectionbg {
   padding: 50px 0;
@@ -2421,6 +2440,9 @@ color: #fff;
 }
 .privacypolicysection {
   padding: 50px 0;
+  background: url(../images/homepage/jobseekerbg.jpg);
+  background-size: cover;
+  height: auto;
 }
 .privacypolicysectioncard{
 background: #fff;
@@ -3796,4 +3818,150 @@ color: #494949;
   position: absolute;
   top: 5%;
   left: 17%;
+}
+
+/*----LOGIN----*/
+.loginbg{
+  background:url(../images/login/loginbanner.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactus-left-card-input {
+  position: relative;
+}
+.contactus-left-card-input svg{
+position: absolute;
+right: 15px;
+bottom: 8px;
+}
+.login-page-card .contactus-left-card {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: -95px;
+  padding: 0;
+  border-bottom: 5pt solid rgb(0, 76, 112);
+}
+.login-user-icon {
+  background: #cfcfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px;
+}
+.login-page-card form{
+  padding: 20px;
+}
+.login-heading{
+font-size: 22px;
+color: rgb(0, 76, 112);
+font-family: "Lato-Black";
+margin-left: 15px;
+}
+.login-page-card.contactmaincard {
+  padding: 50px 0 0;
+  background: url(../images/homepage/jobseekerbg.jpg);
+    background-size: cover;
+    height: auto;
+}
+.forgot-pwd-section{
+text-align: right;
+
+}
+.forgot-pwd-section a{
+  color:#0093d1;
+  font-size: 16px;
+  text-decoration: underline !important;
+}
+.custom-login-btn .primary-yellow-filled-btn{
+  height: 40px;
+}
+.custom-login-btn{
+  display: flex;
+  justify-content: center;
+}
+.register-text-section{
+text-align: center;
+margin: 30px 0 10px;
+}
+.signup-whole-card{
+  display: flex;
+}
+.signup-whole-card .contactus-left-card{
+  background: rgb(0, 76, 112);
+  border-bottom: 5pt solid #F4D00C;
+}
+.signup-whole-card .contactus-left-card .login-heading{
+color: #fff;
+padding: 15px;
+text-align: center;
+margin: 0;
+}
+.signup-whole-card .login-right-card{
+  background: #0093d1;
+}
+.signup-icon {
+  background: #fff;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.signup-whole-card .contactus-left-card-input svg{
+position: unset;
+}
+.signup-whole-card ul.common-bulletin {
+  width: 70%;
+  margin: 0 0 30px auto;
+}
+.signup-employer-bg{
+  background: url(../images//login/signupbanner.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-employer-card .login-user-icon{
+  background: #004c70;
+}
+.signup-employer-card .login-user-icon svg > path{
+fill:#fff;
+}
+.signup-employer-card .login-user-icon .login-heading{
+  color:#fff;
+  }
+  .terms-text {
+    text-align: center;
+    font-size: 14px;
+}
+.custom-signup-btn button{
+width: 240px;
+}
+.signup-jobseeker-card .login-user-icon{
+  background: #0093d1;
+}
+.signup-jobseeker-bg{
+  background: url(../images/login/signupbanner1.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.new-home-page-banner .banner-text p{
+  color: #fff;
+  font-size: 20px;
 }
